@@ -60,5 +60,25 @@ namespace HT1
                 MessageBox.Show("NO CUMPLE");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            char[] c, c1;
+            c = i1.Text.ToCharArray();
+            c1 = i2.Text.ToCharArray();
+            string temp="";
+            int j, x;
+
+            for (j=c.Length-1;j>-1;j--) {
+                temp += c[j];
+            }
+            temp += ' ';
+            for (x=c1.Length-1;x>-1;x--) {
+                temp += c1[x];
+            }
+
+            MessageBox.Show(temp);
+
+        }
     }
 }
