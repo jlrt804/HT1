@@ -1,0 +1,22 @@
+¿Qué entiende como "Commit"?
+ - un comit es un respaldo de cada actualizacion de la aplicación, cuando se tiene una version que se quiere respaldar se hace un commit y se puede seguir trabajando teniendo la certeza de que tiene un respaldo de la ultima version.
+
+¿Qué entiende como "Merge"?
+ - Merge es para fusionar una rama a tu rama activa.
+
+¿Cuál es la diferencia entre Push y Pull?
+ - Push envia los cambios realizados al repositorio mientras que pull actualiza el commit mas reciente
+
+¿Como utilizar ramas "branches" en la aplicación?
+ - se puede utilizar las ramas para trabajar en la misma aplicacion pero en funciones diferentes
+
+ - para crear una nueva rama desde la linea de comandos
+	git chekout -b nombre_rama
+
+ - para borrar la rama
+	git branch -d nombre_rama
+
+
+
+José Luis Reynoso Tiu
+201345126
