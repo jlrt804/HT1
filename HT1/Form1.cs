@@ -77,7 +77,7 @@ namespace HT1
                 temp += c1[x];
             }
 
-            MessageBox.Show(temp);
+            MessageBox.Show(temp+" 201345126");
 
         }
 
